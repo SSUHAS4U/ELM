@@ -1,0 +1,39 @@
+.fullheight {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablestyle {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ddd;
+}
+.tablestyle td, .tablestyle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+tablestyle tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tablestyle tr:hover {
+    background-color: #ddd;
+}
+
+.firstcolumn {
+    width: 120px;
+    font-weight: bold;
+}
+
+.imgstyle {
+    width: 85px;
+    height: 100px;
+    object-fit: cover; /* Ensure the image maintains aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
