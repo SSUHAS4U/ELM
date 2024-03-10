@@ -1,8 +1,4 @@
 # ELM
-Certainly! Here's a sample README.md content for your MERN (MongoDB, Express.js, React.js, Node.js) based Employee Leave Management project:
-
----
-
 # Employee Leave Management System
 
 Employee Leave Management System is a web application built using the MERN stack to manage employee leave requests efficiently.
